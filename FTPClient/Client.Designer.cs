@@ -43,7 +43,7 @@
             this.portTxt.BorderSize = 2;
             this.portTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.portTxt.ForeColor = System.Drawing.Color.DimGray;
-            this.portTxt.Location = new System.Drawing.Point(72, 249);
+            this.portTxt.Location = new System.Drawing.Point(79, 75);
             this.portTxt.Margin = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.portTxt.Multiline = false;
             this.portTxt.Name = "portTxt";
@@ -66,7 +66,7 @@
             this.ipTxt.BorderSize = 2;
             this.ipTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ipTxt.ForeColor = System.Drawing.Color.DimGray;
-            this.ipTxt.Location = new System.Drawing.Point(72, 204);
+            this.ipTxt.Location = new System.Drawing.Point(79, 30);
             this.ipTxt.Margin = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.ipTxt.Multiline = false;
             this.ipTxt.Name = "ipTxt";
@@ -91,11 +91,11 @@
             this.connectBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.connectBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.connectBtn.ForeColor = System.Drawing.Color.White;
-            this.connectBtn.Location = new System.Drawing.Point(126, 290);
+            this.connectBtn.Location = new System.Drawing.Point(133, 116);
             this.connectBtn.Name = "connectBtn";
             this.connectBtn.Size = new System.Drawing.Size(150, 40);
             this.connectBtn.TabIndex = 0;
-            this.connectBtn.Text = "Connect";
+            this.connectBtn.Text = "Await File";
             this.connectBtn.TextColor = System.Drawing.Color.White;
             this.connectBtn.UseVisualStyleBackColor = false;
             this.connectBtn.Click += new System.EventHandler(this.connectBtn_Click);
@@ -104,12 +104,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(414, 362);
+            this.ClientSize = new System.Drawing.Size(414, 204);
             this.Controls.Add(this.portTxt);
             this.Controls.Add(this.ipTxt);
             this.Controls.Add(this.connectBtn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Client";
-            this.Text = "Client";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Gabr\'s FTP Client I think";
             this.ResumeLayout(false);
 
         }

@@ -42,7 +42,7 @@
             this.portTxt.BorderSize = 2;
             this.portTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.portTxt.ForeColor = System.Drawing.Color.DimGray;
-            this.portTxt.Location = new System.Drawing.Point(126, 176);
+            this.portTxt.Location = new System.Drawing.Point(52, 26);
             this.portTxt.Margin = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.portTxt.Multiline = false;
             this.portTxt.Name = "portTxt";
@@ -67,9 +67,9 @@
             this.startServerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.startServerBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startServerBtn.ForeColor = System.Drawing.Color.White;
-            this.startServerBtn.Location = new System.Drawing.Point(173, 217);
+            this.startServerBtn.Location = new System.Drawing.Point(99, 67);
             this.startServerBtn.Name = "startServerBtn";
-            this.startServerBtn.Size = new System.Drawing.Size(143, 59);
+            this.startServerBtn.Size = new System.Drawing.Size(143, 57);
             this.startServerBtn.TabIndex = 0;
             this.startServerBtn.Text = "Start";
             this.startServerBtn.TextColor = System.Drawing.Color.White;
@@ -80,7 +80,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 443);
+            this.ClientSize = new System.Drawing.Size(354, 185);
             this.Controls.Add(this.portTxt);
             this.Controls.Add(this.startServerBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
